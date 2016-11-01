@@ -21,6 +21,9 @@
       </header>
       <section>
         <p>Hello World!</p>
+        {% for post in site.posts %}
+          {{ post }}
+        {% endfor %}
       </section>
       <footer>
         <p>allanw</p>

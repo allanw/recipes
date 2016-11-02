@@ -26,7 +26,7 @@ layout: default
       <section>
         <p>Hello World!</p>
         {% for post in site.posts %}
-          hi {{ post }}
+          <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
       </section>
       <footer>
